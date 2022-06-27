@@ -1,0 +1,255 @@
+:root{
+    --pink:#e84393;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: .2s linear;
+    border: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+   
+}
+
+section{
+    padding: 2rem 9%;
+}
+
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color: #333;
+    padding: 1rem;
+    margin: 1rem 0;
+    background: rgba(145, 139, 168, 0.05);
+}
+
+.heading1{
+    text-align: center;
+    font-size: 4rem;
+    color: #fff;
+    padding: 1rem;
+    margin: 1rem 0 5rem 0;
+    background: rgba(255,255,255, 0.3);
+}
+
+.heading span{
+    color: #2565AE;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #2565AE;
+    padding: 1rem 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    margin-bottom: 5%;/**/
+}
+
+header .logo a{
+    font-size: 3.5rem;
+    color: #fff;
+    font-weight: bolder;
+    font-family: 'Smooch', cursive;
+}
+
+header .navbar a{
+    font-size: 1.9rem;
+    padding: 0 1.5rem;
+    color: #fff;
+}
+
+header .navbar a:hover{
+    font-size: 3.6rem;
+}
+
+header .icons a{
+    font-size: 3rem;
+    color: #fff;
+    margin-left: 2rem;
+}
+
+header .icons a:hover{
+    font-size: 3.6rem;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;/**/
+    background: #fff;
+    min-height: 90vh;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1.5rem;
+}
+
+.home img{
+    border-radius: 50%;
+    width: 35rem;
+    height: 35rem;
+}
+
+.home .content{
+    max-width: 100rem;
+}
+
+.home .content h4{
+    font-size: 5rem;
+    color: #333;
+}
+
+.home .content h1{
+    font-size: 6rem;
+}
+
+.home .content h3{
+    font-size: 3rem;
+    color: #333;
+}
+
+.about{
+    background: #2565AE;
+    margin-bottom: 2rem;
+}
+.about .content{
+    padding-top:4rem;
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: justify;
+    min-height: 55vh;
+}
+
+.projects .content{
+    text-align: center;
+    min-height: 65vh;
+}
+
+.skill{
+    background: #2565AE;
+    min-height: 55vh;
+}
+
+.skill .content{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.5rem;
+    
+}
+
+.skill .content h3{
+    margin-bottom: 2rem;
+}
+
+.skill .program{
+    min-width: 50%;
+    height: 45vh;
+    color: #fff;
+    line-height: 3.5rem;
+}
+
+.skill .lang{
+    min-width: 50%;
+    height: 45vh;
+    color: #fff;
+    line-height: 3.5rem;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #fff;
+}
+
+.contact .row{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.contact .row form{
+    flex: 1 1 40rem;
+    padding: 2rem 2.5rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    border: .1rem solid rgba(0, 0, 0, .1);
+    background: #fff;
+    border-radius: .5rem;
+}
+.contact .row .image{
+    flex: 1 1 40rem;
+}
+
+.contact .row .image img{
+    width: 100%;
+}
+
+.contact .row form .box{
+    padding: 1rem;
+    font-size: 1.7rem;
+    color: #333;
+    text-transform: none;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    margin: .7rem 0;
+    width: 100%;
+}
+.contact .row form textarea{
+    height: 15rem;
+    resize: none;
+}
+
+.contact .btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: #333;
+    color: #fff;
+    padding: 0.9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.footer .credit{
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    color: #333;
+    border-top: .1rem solid rgba(0, 0, 0, .1);
+}
+
+.footer .credit span{
+    color: #2565AE;
+}
+
+.confirm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;/**/
+    background: #fff;
+    min-height: 90vh;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1.5rem;
+   
+}
+
+.confirm p{
+    color: #333;
+    font-size: 3.5rem;
+}
